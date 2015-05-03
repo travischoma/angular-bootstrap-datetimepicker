@@ -37,8 +37,7 @@
   },
   "scripts": {
     "test": "npm run test-browserify && gulp",
-    "test-browserify": "run-browser test/commonjs/browserify.test.js -b",
-    "postinstall": "./node_modules/bower/bin/bower install"
+    "test-browserify": "run-browser test/commonjs/browserify.test.js -b"
   },
   "repository": {
     "type": "git",
